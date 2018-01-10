@@ -1,5 +1,4 @@
 from pyspark.sql import SparkSession
-
 from pyspark.sql import Row
 from pyspark.sql.types import *
 from pyspark.mllib.recommendation import ALS
