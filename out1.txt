@@ -1,0 +1,8 @@
+For rank 4 the RMSE is 1.17608440481
+took 137.701853037
+For rank 8 the RMSE is 1.12295560032
+took 119.741758108
+For rank 12 the RMSE is 1.11444293443
+took 127.989529133
+The best model was trained with rank 12
+Time taken to build the model - 438.050190926
