@@ -112,7 +112,7 @@ t0 = time()
 new_ratings_model = ALS.train(complete_data_with_new_ratings_RDD, best_rank, seed=seed, 
                               iterations=iterations, lambda_=regularization_parameter)
 tt = time() - t0
-
+#print
 print "New model trained in %s seconds" % round(tt,3)
 
 new_user_ratings_ids = new_user_ratings_RDD.map(lambda x: x[1])
